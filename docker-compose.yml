@@ -20,4 +20,5 @@ services:
             - ./downloads:/downloads #chose where you want to store downloaded files
             - ./vuetorrent:/vuetorrent
         ports:
-            - 80888888888       restart: unless-stopped
+            - 80888888888       
+        restart: unless-stopped
